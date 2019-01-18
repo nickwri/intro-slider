@@ -24,7 +24,7 @@ class MainActivity : AppIntro() {
         addSlide(AppIntroFragment.newInstance(sliderPage))
 
         val sliderPage2 = SliderPage()
-        sliderPage2.title = "View Your Card"
+        sliderPage2.title = "View Card"
         sliderPage2.imageDrawable = R.drawable.gosmart_intro
         sliderPage2.description = "Your card contains details about you, including and qualifications awarded within your scheme"
         addSlide(AppIntroFragment.newInstance(sliderPage2))
