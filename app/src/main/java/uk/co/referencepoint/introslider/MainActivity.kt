@@ -13,13 +13,13 @@ class MainActivity : AppIntro() {
 
         val sliderPageX = SliderPage()
         sliderPageX.title = "Welcome To Vircarda"
-        sliderPageX.imageDrawable = R.drawable.gosmart_intro
+        sliderPageX.imageDrawable = R.drawable.vircarda_logo
         sliderPageX.description = "An app for carry your cards on your phone"
         addSlide(AppIntroFragment.newInstance(sliderPageX))
 
         val sliderPage = SliderPage()
         sliderPage.title = "Download Your Card"
-        sliderPage.imageDrawable = R.drawable.gosmart_intro
+        sliderPage.imageDrawable = R.drawable.demo_card
         sliderPage.description = "Enter your unique Registration number and PIN to download your card"
         addSlide(AppIntroFragment.newInstance(sliderPage))
 
